@@ -109,7 +109,15 @@ import: https://raw.githubusercontent.com/liascript-templates/plantUML/master/RE
 - **2. Aufzählung**<!-- style="color: black; font-size: 1.5rem;" -->
 - **3. Aufzählung**<!-- style="color: black; font-size: 1.5rem;" -->
 
-![Beispiel](img\.png)
+## Noch Fragen?
+--------
+**Sie können uns über unser GitLab erreichen!**<!-- style="color: darkgreen; font-size: 3rem;" -->
+-------
+
+**<a href="https://git.rwth-aachen.de/nfdi4ing/education" target="_blank" rel="noopener">Hier</a>**<!-- style="color: darkgreen; font-size: 3rem;" -->
+-------
+
+--------------
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
