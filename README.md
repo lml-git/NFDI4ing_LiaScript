@@ -71,6 +71,8 @@ import: https://raw.githubusercontent.com/liascript-templates/plantUML/master/RE
 
 ![Beispiel](img\DMP1.png)
 
+![Beispiel](tree/master/img/DMP1.png)
+
 
 ## 2. Definition: Was ist ein DMP?
 
