@@ -5,180 +5,106 @@ email:    leon.lipka@rwth-aachen.de
 
 version:  0.0.1
 
-language: en
+language: de
 
-narrator: US English Female
+narrator: Deutsch Female
 
 comment:  this course is a Testcourse to get to know LiaScript for RDM applications.
 
-link:     https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css
+logo:
 
-script:   https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js
+icon: https://nfdi4ing.de/wp-content/uploads/2018/09/logo.svg
 
-translation: Deutsch  translations/German.md
+import: https://raw.githubusercontent.com/liascript-templates/plantUML/master/README.md
+        https://github.com/liascript/CodeRunner
 
-translation: Français translations/French.md
 -->
 
-# Course Main Title
+# **NFDI4Ing Trainingsmaterialien**
 
-This is your **course** initialization stub.
-
-Please see the [Docs](https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md)
-to find out what is possible in [LiaScript](https://liascript.github.io).
-
-If you want to use instant help in your Atom IDE, please type **lia** to see all available shortcuts.
-
-## Markdown
-
-You can use common [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) syntax to create your course, such as:
-
-1. Lists
-2. ordered or
-
-   * unordered
-   * ones ...
+**Datenamangementpläne**<!-- style="color: forestgreen; font-size: 4rem;" -->
+-------
+**Selbstlernmaterialien**<!-- style="color: forestgreen; font-size: 3rem;" -->
+=======
 
 
-| Header 1   | Header 2   |
-| :--------- | :--------- |
-| Item 1     | Item 2     |
+
+## **Agenda V.1**
+
+1. **Ziele des Trainings**<!-- style="color: green; font-size: 2rem;" -->
+2. **Definition: Was ist ein DMP?**<!-- style="color: green; font-size: 2rem;" -->
+3. **Zweck: Was kann ein DMP?**<!-- style="color: green; font-size: 2rem;" -->
+4. **Nutzen Welche Vorteile bietet ein DMP?**<!-- style="color: green; font-size: 2rem;" -->
+5. **Beispielhafte Inhalte: Was ist Teil des DMP?**<!-- style="color: green; font-size: 2rem;" -->
+6. **Use-Cases: Anwendungsbeispiele für DMP**<!-- style="color: green; font-size: 2rem;" -->
+7. **Übung mit dem Tool RDMO**<!-- style="color: green; font-size: 2rem;" -->
 
 
-Images:
 
-![images](https://farm2.static.flickr.com/1618/26701766821_7bea494826.jpg)
+## Agenda V.2
 
-
-### Extensions
-
-     --{{0}}--
-But you can also include other features such as spoken text.
-
-      --{{1}}--
-Insert any kind of audio file:
-
-       {{1}}
-?[audio](https://bigsoundbank.com/UPLOAD/mp3/1068.mp3)
+<!-- style="width: 30%; min-width: 600px; color: white; font-size:20px" -->
+| <!-- style="width: 20%; background: green"--> 0 | <!-- style="width: 80%; background: green"--> Agenda        |
+|:------------------------------------------ |:------------------------------------------------- |
+| <!-- style="width: 20%; background: green"--> 1   | <!-- style="width: 80%; background: green"--> Ziele des Trainings |
+| <!-- style="width: 20%; background: green"--> 2   | <!-- style="width: 80%; background: green"--> Definition: Was ist ein DMP? |
+| <!-- style="width: 20%; background: green"--> 3   | <!-- style="width: 80%; background: green"--> Zweck: Was kann ein DMP? |
+| <!-- style="width: 20%; background: green"--> 4   | <!-- style="width: 80%; background: green"--> Nutzen Welche Vorteile bietet ein DMP? |
+| <!-- style="width: 20%; background: green"--> 5   | <!-- style="width: 80%; background: green"--> Beispielhafte Inhalte: Was ist Teil des DMP? |
+| <!-- style="width: 20%; background: green"--> 6   | <!-- style="width: 80%; background: green"--> Use-Cases: Anwendungsbeispiele für DMP |
+| <!-- style="width: 20%; background: green"--> 7   | <!-- style="width: 80%; background: green"--> Übung mit dem Tool RDMO |
 
 
-     --{{2}}--
-Even videos or change the language completely.
+## 1. Ziele des Trainings
 
-       {{2-3}}
-!?[video](https://www.youtube.com/watch?v=bICfKRyKTwE)
+**Zu vermittelndes Wissen und Inhalte:**<!-- style="color: darkgreen; font-size: 2rem;" -->
+-------
 
+- **Grundlagen zum Datenamangementplan**<!-- style="color: black; font-size: 1.5rem;" -->
 
-      --{{3 Russian Female}}--
-Первоначально создан в 2004 году Джоном Грубером (англ. John Gruber) и Аароном
-Шварцем. Многие идеи языка были позаимствованы из существующих соглашений по
-разметке текста в электронных письмах...
+  - **Definition**<!-- style="color: black; font-size: 1.5rem;" -->     
+  - **Zweck**<!-- style="color: black; font-size: 1.5rem;" -->     
+  - **Nutzen für IngenieurInnen**<!-- style="color: black; font-size: 1.5rem;" -->    
 
+- **Use-Cases mit praktischen Beispielen**<!-- style="color: black; font-size: 1.5rem;" -->
+- **Hands-On Übungen mit dem DMP-Tool RDMO (Research Data Management Organizer)**<!-- style="color: black; font-size: 1.5rem;" -->
 
-    {{3}}
-Type "voice" to see a list of all available languages.
-
-
-### Styling
-
-<!-- class = "animated rollIn" style = "animation-delay: 2s; color: purple" -->
-The whole text-block should appear in purple color and with a wobbling effect.
-Which is a **bad** example, please use it with caution ...
-~~ only this is red ;-) ~~ <!-- class = "animated infinite bounce" style = "color: red;" -->
-
-## Charts
-
-Use ASCII-Art to draw diagrams:
-
-                                    Multiline
-    1.9 |    DOTS
-        |                 ***
-      y |               *     *
-      - | r r r r r r r*r r r r*r r r r r r r
-      a |             *         *
-      x |            *           *
-      i | B B B B B * B B B B B B * B B B B B
-      s |         *                 *
-        | *  * *                       * *  *
-     -1 +------------------------------------
-        0              x-axis               1
-
-## Quizzes
-
-### A Textquiz
-
-What did the **fish** say when he hit a **concrete wall**?
-
-    [[dam]]
-
-### Multiple Choice
-
-Just add as many points as you wish:
-
-    [[X]] Only the **X** marks the correct point.
-    [[ ]] Empty ones are wrong.
-    [[X]] ...
-
-### Single Choice
-
-Just add as many points as you wish:
-
-    [( )] ...
-    [(X)] <-- Only the **X** is allowed.
-    [( )] ...
-
-## Executable Code
-
-A drawing example, for demonstrating that any JavaScript library can be used, also for drawing.
-
-```javascript
-// Initialize a Line chart in the container with the ID chart1
-new Chartist.Line('#chart1', {
-  labels: [1, 2, 3, 4],
-  series: [[100, 120, 180, 200]]
-});
-
-// Initialize a Line chart in the container with the ID chart2
-new Chartist.Bar('#chart2', {
-  labels: [1, 2, 3, 4],
-  series: [[5, 2, 8, 3]]
-});
-```
-<script>@input</script>
-
-<div class="ct-chart ct-golden-section" id="chart1"></div>
-<div class="ct-chart ct-golden-section" id="chart2"></div>
+![Beispiel](img\DMP1.png)
 
 
-### Projects
+## 2. Definition: Was ist ein DMP?
 
-You can make your code executable and define projects:
 
-``` js     -EvalScript.js
-let who = data.first_name + " " + data.last_name;
+### Was ist ein DMP? I/II
+--------
 
-if(data.online) {
-  who + " is online"; }
-else {
-  who + " is NOT online"; }
-```
-``` json    +Data.json
-{
-  "first_name" :  "Sammy",
-  "last_name"  :  "Shark",
-  "online"     :  true
-}
-```
-<script>
-  // insert the JSON dataset into the local variable data
-  let data = @input(1);
+**Datenmanagementplan: Definition**<!-- style="color: darkgreen; font-size: 3rem;" -->
+-------
 
-  // eval the script that uses this dataset
-  eval(`@input(0)`);
-</script>
+- **Systematische Beschreibung des Umgangs mit (Forschungs)daten während d1es gesamten Projektverlaufs und darüber hinaus**<!-- style="color: black; font-size: 1.5rem;" -->
+- **Beim Projektbeginn erstellte Sammlung der erwarteten Daten und Zuständigkeiten**<!-- style="color: black; font-size: 1.5rem;" -->   
+- **Gewährleistet Nachvollziehbarkeit und Übersichtlichkeit**<!-- style="color: black; font-size: 1.5rem;" -->
 
-## More
+![Beispiel](img\DMP2.png)
 
-Find out what you can even do more with quizzes:
+### Was ist ein DMP? - weitere Deinitionen II/II
+--------
 
-https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md
+**Datenmanagementplan: Definition**<!-- style="color: darkgreen; font-size: 3rem;" -->
+-------
+
+- **Angaben zu Projektleitung, Projekttitel, Projektbeschreibung, Förderorganisation, Art und Umfang der entstandenen Forschungsdaten, Speicherung, Aufbewahrungsdauer usw.**<!-- style="color: black; font-size: 1.5rem;" -->
+- **Ermöglichung der Interpretation und Nachnutzung von Forschungsergebnissen in späteren Jahren**<!-- style="color: black; font-size: 1.5rem;" -->
+- **Leitfaden für den strukturierten Umgang mit Forschungsdaten während des Projektverlaufs und darüber hinaus**<!-- style="color: black; font-size: 1.5rem;" -->
+- **"[...] Analyse des Worklflows von der Erzeugung der Daten bis zu deren Nutzung"**<!-- style="color: black; font-size: 1.5rem;" -->
+
+## Agenda Punkt
+
+**Hervorgehobene Überschrift**<!-- style="color: darkgreen; font-size: 2rem;" -->
+-------
+
+- **1. Aufzählung**<!-- style="color: black; font-size: 1.5rem;" -->  
+- **2. Aufzählung**<!-- style="color: black; font-size: 1.5rem;" -->
+- **3. Aufzählung**<!-- style="color: black; font-size: 1.5rem;" -->
+
+![Beispiel](img\.png)
