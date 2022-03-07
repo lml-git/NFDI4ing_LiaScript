@@ -89,6 +89,7 @@ import: https://raw.githubusercontent.com/liascript-templates/plantUML/master/RE
 
 ![Beispiel](img\DMP2.png)
 
+
 ### Was ist ein DMP? - weitere Deinitionen II/II
 --------
 
@@ -99,6 +100,77 @@ import: https://raw.githubusercontent.com/liascript-templates/plantUML/master/RE
 - **Ermöglichung der Interpretation und Nachnutzung von Forschungsergebnissen in späteren Jahren**<!-- style="color: black; font-size: 1.5rem;" -->
 - **Leitfaden für den strukturierten Umgang mit Forschungsdaten während des Projektverlaufs und darüber hinaus**<!-- style="color: black; font-size: 1.5rem;" -->
 - **"[...] Analyse des Worklflows von der Erzeugung der Daten bis zu deren Nutzung"**<!-- style="color: black; font-size: 1.5rem;" -->
+
+## Zweck: Was kann ein DMP?
+
+**Zweck**<!-- style="color: darkgreen; font-size: 2rem;" -->
+-------
+
+**Wofür können DMP genutzt werden?**<!-- style="color: black; font-size: 1.7rem;" -->
+-------
+    [[Erfüllung von Anforderungen der Fördergeber (derzeit noch, später auch Folgendes)]]
+
+--------
+
+    Welches prinzip verfolgt das Kommunikationstool zwischen Projektpartnern?:
+
+        [( )] Single Informations of Points.
+        [( )] Informations of Single Points.
+        [(X)] Single Point of Information.
+
+-------
+
+    Fragen zu Selbstamangement/ projektinternen FDM:
+
+        [[X]] Welche daten werden erwartet?.
+        [[X]] Welche fallen tatsächlich an?.
+        [[X]] Welche fehlen noch?.
+
+--------
+
+    Vorbereitung der Nach- und Weiternutzung:
+
+        [[X]] Bei Projektabschluss bleiben Daten zugänglich und verständlich.
+        [[X]] Nachnutzbarkeit wird gewährleistet.
+        [[X]] Für Andere (z.B. Kollegen/ Vorgesetzte) .
+
+-------
+## Nutzen: welche Vorteile bietet ein DMP?
+
+**Nutzen**<!-- style="color: darkgreen; font-size: 2rem;" -->
+-------
+
+**Warum sollte ein DMP genutzt werden?**<!-- style="color: black; font-size: 1.7rem;" -->
+
+  Ist es Sinnvoll?
+
+    [(X)] Yes
+    [( )] No
+
+-------
+
+- [[Steigerung] (Verhinderung)]
+- [    [X]           [ ]      ]  der Qualität und Effizenz der Forschungsarbeit
+- [    [ ]           [X]      ]  von Doppelarbeit durch bessere Organisation
+
+------
+
+Welcher Punkt ist noch wichtig?
+
+[[ Es existieren bereits Vorlagen für DMPS´s, sodass Forschende sich wenig Gedanken über die Gestaltung machen müssen | Einfache Nutzung von bereits erarbeiteten Ergebnissen | ( Beides ) ]]
+
+Welcher Punkt fehlt noch?
+
+    [[  ( Anforderungen von Fördergebern und gute wissenschaftliche Praxis, hierbei oft unklar, was genau gefordert wird; Tools wie RDMO beinhalten Fragenkataloge extra für spezielle Fördergeber )
+    | vielleicht auch das
+    |   oder das?
+    | wer weiß
+    ]]
+
+
+
+
+
 
 ## Agenda Punkt
 
@@ -129,3 +201,41 @@ This work is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+
+
+
+
+
+# Befehlsübersicht
+
+## Quizzes
+
+### A Textquiz
+
+What did the **fish** say when he hit a **concrete wall**?
+
+    [[dam]]
+
+### Multiple Choice
+
+Just add as many points as you wish:
+
+    [[X]] Only the **X** marks the correct point.
+    [[ ]] Empty ones are wrong.
+    [[X]] ...
+
+### Single Choice
+
+Just add as many points as you wish:
+
+    [( )] ...
+    [(X)] <-- Only the **X** is allowed.
+    [( )] ...
+
+
+## More
+
+Find out what you can even do more with quizzes:
+
+https://liascript.github.io/course/?https://raw.githubusercontent.com/liaScript/docs/master/README.md
