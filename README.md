@@ -168,8 +168,37 @@ Welcher Punkt fehlt noch?
     ]]
 
 
+## Ein komplexes Quiz-Beispiel
+<!--
+@noten: <script output="@0" value="select" input="select" options="sehrgut|gut|befriedigend|ungenügend">
+            if("@input(`noten`)" == "true") {
+              "@1"
+            } else {
+              "@input"
+            }
+          </script>
+-->
 
 
+
+Welche noten hatten die Studierenden im jeweiligen Erstversuch?
+
+[[!]]
+<script output="noten">
+if ("@input" !== "true") {
+  "@input(`11`)"=="sehrgut"       &&  "@input(`21`)"=="ungenügend"  &&  "@input(`31`)"=="sehrgut"     &&  "@input(`41`)"=="gut"         &&
+  "@input(`12`)"=="gut"           &&  "@input(`22`)"=="sehrgut"     &&  "@input(`32`)"=="ungenügend"  &&  "@input(`42`)"=="sehrgut"     &&
+  "@input(`13`)"=="befriedigend"  &&  "@input(`23`)"=="sehrgut"     &&  "@input(`33`)"=="ungenügend"  &&  "@input(`43`)"=="ungenügend"  &&
+  "@input(`14`)"=="gut"           &&  "@input(`24`)"=="sehrgut"     &&  "@input(`34`)"=="sehrgut"     &&  "@input(`44`)"=="gut"
+}
+</script>
+
+| Modul          | Anton                   | Karl                  | Sebastian             | Katharina             |
+| -------------- | ----------------------- | --------------------- | --------------------- | --------------------- |
+| Mathe1         | @noten(11,sehrgut)      | @noten(21,ungenügend) | @noten(31,sehrgut)    | @noten(41,gut)        |
+| Mechanik2      | @noten(12,gut)          | @noten(22,sehrgut)    | @noten(32,ungenügend) | @noten(42,sehrgut)    |
+| Thermodynamik  | @noten(13,befriedigend) | @noten(23,sehrgut)    | @noten(33,ungenügend) | @noten(43,ungenügend) |
+| Bachelorarbeit | @noten(14,gut)          | @noten(24,sehrgut)    | @noten(34,sehrgut)    | @noten(44,gut)        |
 
 
 ## Agenda Punkt
